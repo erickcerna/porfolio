@@ -1,3 +1,22 @@
-header{
-    background-color: red;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: -2px;
+}
+
+.proyect-details{
+    width: 500px;
+}
+
+.proyect-imageContainer{
+    width: 500px;
+}
+
+.hero{
+    height: 300px;
 }
