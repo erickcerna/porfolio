@@ -16,6 +16,24 @@ h1 strong{
     color: #026fff;
 }
 
+/* header y navbar */
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: inherit;
+}
+
+figure {
+    margin: 0;
+  }
+
+  
+
+
+
 .portfolio{
     background-color: #fafafa;
 }
@@ -52,6 +70,8 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
     
 
 }
@@ -59,10 +79,68 @@ h1 strong{
 
 .header{
     background-color: #1b2127 ;
-    color: white
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; 
 }
+
+.header ul {
+    display: flex;
+    height: inherit;
+  }
+
+.header ul li{
+    height: inherit;
+}  
 
 .header a{
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; 
 }
+
+.menu { /* .menu hereda de .header */
+    height: inherit;
+  }
+
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+
+
+
+/* .flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    height: 500px;
+    align-items:stretch;
+  
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+   
+    background-color: coral;
+    flex-shrink: 1;
+
+    
+} */
