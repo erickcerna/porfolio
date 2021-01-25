@@ -16,6 +16,15 @@ h1 strong{
     color: #026fff;
 }
 
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
 /* header y navbar */
 
 ol,
@@ -36,6 +45,7 @@ figure {
 
 .portfolio{
     background-color: #fafafa;
+    padding: 20px;
 }
 .proyect{
     /* border-top: 10px solid red;
@@ -48,13 +58,41 @@ figure {
     background-color: white;
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
     
 }
+
+.proyect-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.proyect-course{
+    margin: 10px 0;
+}
+
+.proyect-date{
+    margin: 10px 0;
+}
+
+.proyect-url{
+    margin: 10px 0;
+}
+
+.proyect-description{
+    font-size: 20px;
+}
+
+.proyect strong{
+    font-family: Helvetica, sans-serif;
+}
+
 .proyect-details{
     width: 500px;
 }
@@ -66,6 +104,8 @@ figure {
 .hero{
     height: 300px;
     background-image: url('../images/hero.jpg');
+  
+
     background-color: #1b2127;
     background-size: 500px 300px;
     background-repeat: no-repeat;
@@ -120,6 +160,64 @@ figure {
 .footer img{
     vertical-align: middle;
 }
+
+
+.event{
+   
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}
+
+.event-list{
+    display: flex;
+
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-details{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    border: 1px solid #056fff;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
